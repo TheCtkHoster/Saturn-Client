@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
     
     for (const mod of module) {
       // You can change the .join(" | ") to commas, dots or every symbol.
-      embed.addField(`${mod.name}`, mod.cmds.map(x => `\`${x}\``).join(" | "));
+      embed.addField(`${mod.name}`, mod.cmds.map(x => `\`${x}\``).join(", "));
     }
     
     return message.channel.send(embed);
