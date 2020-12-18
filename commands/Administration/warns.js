@@ -29,7 +29,7 @@ exports.help = {
     name: "warns",
     description: "see how many warnings that mentioned user have.",
     usage: [`${config.prefix}warns <Mentioned user>`],
-    example: [`${config.prefix}warns Greblue#6328`]
+    example: [`${config.prefix}warns Greblue`]
 }
   
   exports.conf = {

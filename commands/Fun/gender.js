@@ -23,7 +23,7 @@ exports.help = {
     name: "gender",
     description: "Let everyone know your real gender.",
     usage: [`${config.prefix}gender [Mentioned user]`],
-    example: [`${config.prefix}gender @Greblue#6328`]
+    example: [`${config.prefix}gender @Greblue`]
 }
   
   exports.conf = {

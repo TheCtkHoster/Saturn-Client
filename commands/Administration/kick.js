@@ -40,7 +40,7 @@ exports.help = {
     name: "kick",
     description: "Kick the fools!",
     usage: [`${config.prefix}kick <Mentioned member>`],
-    example: [`${config.prefix}kick @Greblue#6328`]
+    example: [`${config.prefix}kick @Greblue`]
 }
   
   exports.conf = {

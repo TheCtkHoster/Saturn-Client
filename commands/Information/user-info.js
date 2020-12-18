@@ -51,7 +51,7 @@ exports.help = {
     name: "user-info",
     description: "Let the bot show you the information of some user or yourself",
     usage: [`${config.prefix}user-info`],
-    example: [`${config.prefix}user-info`]
+    example: [`${config.prefix}user-info @Greblue`]
 }
   
   exports.conf = {

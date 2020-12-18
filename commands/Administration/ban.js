@@ -58,7 +58,7 @@ exports.help = {
     name: "ban",
     description: "Ban the rules breaker!",
     usage: [`${config.prefix}ban <Mentioned member> [Reason]`],
-    example: [`${config.prefix}ban @Greblue#6328 Stupid spammer..`]
+    example: [`${config.prefix}ban @Greblue Stupid spammer..`]
 }
   
   exports.conf = {

@@ -43,7 +43,7 @@ exports.help = {
     name: "reset-warn",
     description: "Reset mentioned user warning",
     usage: [`${config.prefix}reset-warn <Mentioned user>`],
-    example: [`${config.prefix}reset-warn Greblue#6328`]
+    example: [`${config.prefix}reset-warn Greblue`]
 }
   
   exports.conf = {

@@ -34,7 +34,7 @@ exports.help = {
     name: "balance",
     description: "Checking yours, or other members money.",
     usage: "balance [Mentioned user]",
-    example: "balance @Greblue#6328"
+    example: "balance @Greblue"
 }
   
 exports.conf = {

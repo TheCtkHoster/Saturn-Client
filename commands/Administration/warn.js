@@ -59,7 +59,7 @@ exports.help = {
     name: "warn",
     description: "warn the rules breaker!",
     usage: [`${config.prefix}warn <Mentioned user> [Reason]`],
-    example: [`${config.prefix}warn Greblue#6328 Spamming!`]
+    example: [`${config.prefix}warn Greblue Spamming!`]
 }
   
   exports.conf = {

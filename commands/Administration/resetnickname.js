@@ -31,7 +31,7 @@ exports.help = {
     name: "reset-nickname",
     description: "reset a nickname for a user.",
     usage: [`${config.prefix}reset-nickname <Mentioned member>`],
-    example: [`${config.prefix}reset-nickname @Greblue#6328`]
+    example: [`${config.prefix}reset-nickname @Greblue`]
 }
   
   exports.conf = {

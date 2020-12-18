@@ -30,7 +30,7 @@ const embed = new Discord.MessageEmbed()
     .setFooter(`Replying to ${message.author.tag}`, message.author.displayAvatarURL({ dynamic: true }))
     .addFields(
 //            {name: '**Bot Creator:**', value: `Greblue#7248\nMyuttiey#7248`, inline: true},
-        {name: '**Client Info**', value: `\`\`\`yml\nCreator: Greblue#6328\nName: ${client.user.tag}\nPrefix: ${config.prefix}\nLibrary: discord.js 12.5.1\nCreated since: 29/November/2020\`\`\``},
+        {name: '**Client Info**', value: `\`\`\`yml\nCreator: Greblue#7865\nName: ${client.user.tag}\nPrefix: ${config.prefix}\nLibrary: discord.js 12.5.1\nCreated since: 29/November/2020\`\`\``},
         {name: `**Client Statistics**`, value: `\`\`\`yml\nServer: ${guild}\nUsers: ${user}\nChannels: ${channel}\nUsage: ${usage}\nNode: ${Node}\nCPU Usage: ${CPU}%\nUptime: ${parseDur(client.uptime)}\`\`\``}
     )
     .setTimestamp()

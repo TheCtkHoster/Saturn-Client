@@ -21,7 +21,7 @@ exports.help = {
     name: "how-lucky",
     description: "How lucky are you?",
     usage: [`${config.prefix}how-lucky [Mentioned user]`],
-    example: [`${config.prefix}how-lucky @Greblue#6328`]
+    example: [`${config.prefix}how-lucky @Greblue`]
 }
   
   exports.conf = {

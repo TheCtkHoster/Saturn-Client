@@ -34,7 +34,7 @@ exports.help = {
     name: "transfer",
     description: "Transfer a credits to the user.",
     usage: "transfer <@user | user ID> <amount>",
-    example: "transfer @ray#1337 900"
+    example: "transfer @Greblue 900"
 }
 
 exports.conf = {
