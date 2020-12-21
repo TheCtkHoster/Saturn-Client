@@ -1,5 +1,6 @@
 const discord = require("discord.js");
 const config = require('../../config.json');
+const db = require('quick.db');
 
 exports.run = async (client, message, args) => {
     if(message.author.id !== config.owners){

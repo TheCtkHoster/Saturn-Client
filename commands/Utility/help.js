@@ -14,7 +14,7 @@ exports.run = async (client, message, args) => {
     .setColor("RANDOM")
     .setFooter(`Replying to ${message.author.tag}`, message.author.displayAvatarURL({ dynamic: true }))
     .setTimestamp()
-    .setDescription(`‣ Prefix: ${config.prefix}\n‣ Invite me: [Click here](https://discord.com/api/oauth2/authorize?client_id=782516877908901889&permissions=8&scope=bot)\n‣ Website: [Click here](http://greblue.great-site.net/)\n‣ Support Server: [Click here](https://discord.gg/PgtWuVv)\n‣ Type \`${prefix}help [command_name]\` to get more specific information about a command.`)
+    .setDescription(`‣ Prefix: ${config.prefix}\n‣ Invite me: [Click here](https://discord.com/api/oauth2/authorize?client_id=782516877908901889&permissions=8&scope=bot)\n‣ Website: [Click here](http://greblue.great-site.net/)\n‣ Support server: [Click here](https://discord.gg/PgtWuVv)\n‣ Type \`${prefix}help [command_name]\` to get more specific information about a command.`)
     .setAuthor(`${client.user.username}'s Help menu`, client.user.displayAvatarURL())
     
     for (const mod of module) {
